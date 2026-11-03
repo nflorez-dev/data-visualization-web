@@ -1,0 +1,632 @@
+[
+  {
+    "id": "F001",
+    "filename": "PACIENTE_CERO_SHIBUYA.TXT",
+    "size": 11264,
+    "date": "02-01-96",
+    "classification": "TOP SECRET",
+    "requiresFloppy": false,
+    "chart": null,
+    "paragraphs": [
+      "Redacto este informe como responsable de campo de PROYECTO PROMETEO, en aquel momento adscrito a la Universidad Takayama. Debo dejar constancia, aunque me cueste, de que once días antes del incidente de Shibuya ya habíamos perdido la trazabilidad de una de nuestras muestras experimentales. En su momento lo achacamos a un error de inventario. Hoy sé que no lo fue.",
+      "El primer caso público y confirmado corresponde a un varón no identificado, de piel con un tono grisáceo pronunciado y ropa desgarrada por laceraciones autoinfligidas en los antebrazos, observado caminando de forma irregular entre la multitud de Shibuya durante la tarde.",
+      "Un oficial de policía que se acercó a ofrecerle ayuda fue atacado y devorado en cuestión de segundos, sin oportunidad de pedir refuerzos. Al menos tres transeúntes grabaron el incidente con videocámaras caseras antes de que los servicios de emergencia lograran acordonar la zona.",
+      "Lo más inquietante no es el ataque en sí, sino la sincronía: en las horas siguientes se reportaron incidentes prácticamente idénticos en Tokio, Osaka y Kioto, sin conexión aparente entre las víctimas ni los agresores. Esto descarta cualquier hipótesis de contagio físico de propagación estrictamente lineal, y encaja, para mi vergüenza, con los patrones de dispersión que habíamos modelado en el laboratorio meses atrás sin llegar jamás a probarlos fuera de una cámara sellada."
+    ]
+  },
+  {
+    "id": "F002",
+    "filename": "PROPAGACION_SIMULTANEA.RPT",
+    "size": 9840,
+    "date": "02-09-96",
+    "classification": "SECRET",
+    "requiresFloppy": false,
+    "chart": null,
+    "paragraphs": [
+      "Los medios calificaron el fenómeno de 'conducta animalesca', etiqueta que el gobierno jamás desmintió públicamente. La ausencia de una explicación oficial coherente generó, en la práctica, más pánico que los propios incidentes. Nosotros, que sí teníamos una explicación parcial, tampoco hablamos.",
+      "El Ejecutivo invocó la Ley de Enfermedades Infecciosas para justificar las primeras restricciones de movimiento. Lo que comenzó como una sugerencia de 'permanecer en casa' se convirtió, en cuestión de semanas, en una amenaza explícita respaldada por fuerzas de seguridad en la vía pública.",
+      "Como equipo de investigación solicitamos, en tres ocasiones, acceso a las primeras muestras biológicas recuperadas por las autoridades sanitarias. Las tres solicitudes fueron denegadas antes de que las comunicaciones oficiales colapsaran por completo. No sé si nos negaron el acceso por burocracia o porque alguien, en algún despacho, ya sospechaba de dónde habían salido las muestras originales."
+    ]
+  },
+  {
+    "id": "F003",
+    "filename": "POBLACION_DEMOGRAFICA.XLS",
+    "size": 47104,
+    "date": "11-15-96",
+    "classification": "TOP SECRET",
+    "requiresFloppy": false,
+    "chart": {
+      "kind": "bar",
+      "unit": "M",
+      "title": "POBLACION DEMOGRAFICA RESPECTO AL TIEMPO",
+      "subtitle": "Millones de habitantes / Estimacion sobre el brote inicial / Cada 2 meses aprox.",
+      "labels": [
+        "SUPERVIVIENTES",
+        "DESAPARECIDOS",
+        "INFECTADOS",
+        "MUERTOS",
+        "MUTADOS"
+      ],
+      "series": [
+        {
+          "name": "DIA 0",
+          "color": "paleMint",
+          "values": [
+            121.7,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "MES 1",
+          "color": "green",
+          "values": [
+            72,
+            5,
+            20,
+            24.2,
+            0.5
+          ]
+        },
+        {
+          "name": "MES 3",
+          "color": "greenDim",
+          "values": [
+            32,
+            8,
+            45,
+            33.2,
+            3
+          ]
+        },
+        {
+          "name": "MES 5",
+          "color": "amber",
+          "values": [
+            13,
+            9,
+            65,
+            31.7,
+            3
+          ]
+        },
+        {
+          "name": "MES 7",
+          "color": "brown",
+          "values": [
+            6.5,
+            9.5,
+            77,
+            25.7,
+            3
+          ]
+        },
+        {
+          "name": "MES 9",
+          "color": "red",
+          "values": [
+            3.5,
+            10,
+            82,
+            23.2,
+            3.5
+          ]
+        }
+      ]
+    },
+    "paragraphs": []
+  },
+  {
+    "id": "F004",
+    "filename": "EVOLUCION_POBLACIONAL.RPT",
+    "size": 38912,
+    "date": "11-15-96",
+    "classification": "TOP SECRET",
+    "requiresFloppy": false,
+    "chart": {
+      "kind": "line",
+      "unit": "M",
+      "title": "EVOLUCION DE LA POBLACION — SERIE COMPLETA",
+      "subtitle": "Millones de habitantes / Seguimiento continuo desde el brote inicial",
+      "labels": [
+        "DIA 0",
+        "MES 1",
+        "MES 3",
+        "MES 5",
+        "MES 7",
+        "MES 9"
+      ],
+      "series": [
+        {
+          "name": "SUPERVIVIENTES",
+          "color": "green",
+          "values": [
+            121.7,
+            72,
+            32,
+            13,
+            6.5,
+            3.5
+          ]
+        },
+        {
+          "name": "INFECTADOS",
+          "color": "red",
+          "values": [
+            0,
+            20,
+            45,
+            65,
+            77,
+            82
+          ]
+        },
+        {
+          "name": "MUERTOS",
+          "color": "brown",
+          "values": [
+            0,
+            24.2,
+            33.2,
+            31.7,
+            25.7,
+            23.2
+          ]
+        },
+        {
+          "name": "DESAPARECIDOS",
+          "color": "amber",
+          "values": [
+            0,
+            5,
+            8,
+            9,
+            9.5,
+            10
+          ]
+        },
+        {
+          "name": "MUTADOS",
+          "color": "paleMint",
+          "values": [
+            0,
+            0.5,
+            3,
+            3,
+            3,
+            3.5
+          ]
+        }
+      ]
+    },
+    "paragraphs": []
+  },
+  {
+    "id": "F005",
+    "filename": "CUARENTENA_OMS.TXT",
+    "size": 7168,
+    "date": "03-04-96",
+    "classification": "TOP SECRET",
+    "requiresFloppy": true,
+    "chart": null,
+    "paragraphs": [
+      "No existe una fecha única ni un documento formal que registre el aislamiento de Japón. Lo que sigue es una reconstrucción hecha a partir de fragmentos: boletines de radio de onda corta, cables diplomáticos que Takumi logró interceptar antes de que la señal se perdiera del todo, y los últimos reportes que llegaron a esta facultad antes del apagón total de comunicaciones.",
+      "El patrón, en todo caso, es claro: primero fueron vuelos individuales cancelados por aerolíneas extranjeras, después cierres de embajadas, después restricciones marítimas anunciadas país por país, sin coordinación aparente ni comunicado conjunto. Nadie quiso ser el primero en declarar oficialmente una cuarentena, pero todos actuaron como si ya existiera.",
+      "Para cuando fue evidente que ningún vuelo, embarcación o persona podía entrar o salir del país, ya no quedaba nadie del otro lado dispuesto a anunciarlo formalmente. Prefiero llamar a este archivo 'cuarentena de la OMS' porque necesito ponerle un nombre a algo que, en su momento, nunca tuvo ninguno."
+    ]
+  },
+  {
+    "id": "F006",
+    "filename": "CAIDA_DEL_GOBIERNO.RPT",
+    "size": 8432,
+    "date": "04-18-96",
+    "classification": "TOP SECRET",
+    "requiresFloppy": true,
+    "chart": null,
+    "paragraphs": [
+      "No hubo un anuncio de renuncia ni una imagen que marcara un final. Durante semanas, las transmisiones oficiales insistieron en las mismas frases: zonas a evitar, síntomas a reportar, instrucciones de aislamiento que cada vez menos gente seguía al pie de la letra.",
+      "Con el tiempo esas transmisiones dejaron de traer información nueva. Se repetían las mismas grabaciones, a veces con los mismos errores de sonido, como si ya nadie del otro lado las estuviera revisando. Circularon rumores, nunca confirmados por este equipo, de que parte del liderazgo del país había intentado salir de Japón antes del cierre total de fronteras; no tengo forma de verificar si alguno lo consiguió.",
+      "Lo único cierto es el silencio que vino después. No hubo comunicado final, ni instrucciones, ni despedida. El gobierno, tal como lo conocíamos, simplemente dejó de emitir. Cada institución y cada comunidad quedó librada a sus propios medios, incluido este laboratorio, que a partir de aquí dejó de rendir cuentas a nadie más que a sí mismo."
+    ]
+  },
+  {
+    "id": "F007",
+    "filename": "INFRAESTRUCTURA_COLAPSADA.RPT",
+    "size": 15360,
+    "date": "11-12-96",
+    "classification": "SECRET",
+    "requiresFloppy": false,
+    "chart": {
+      "kind": "bar",
+      "title": "LUGARES COLAPSADOS O SIN RECURSOS",
+      "subtitle": "Porcentaje de infraestructura fuera de servicio / Ultimo relevamiento",
+      "labels": [
+        "TIENDAS",
+        "HOSPITALES",
+        "PLANTAS ELEC.",
+        "TELECOM.",
+        "COLEGIOS/UNIV.",
+        "BASES MILIT.",
+        "TRANSPORTE"
+      ],
+      "yMax": 100,
+      "yStep": 20,
+      "series": [
+        {
+          "name": "% COLAPSADO",
+          "color": "red",
+          "values": [
+            95,
+            50,
+            45,
+            100,
+            80,
+            75,
+            100
+          ]
+        }
+      ]
+    },
+    "paragraphs": []
+  },
+  {
+    "id": "F008",
+    "filename": "FACCIONES_SUPERVIVIENTES.RPT",
+    "size": 12800,
+    "date": "11-12-96",
+    "classification": "SECRET",
+    "requiresFloppy": true,
+    "chart": {
+      "kind": "pie",
+      "title": "FACCIONES DENTRO DE LOS SUPERVIVIENTES",
+      "subtitle": "Porcentaje de grupos por demografia de supervivientes",
+      "slices": [
+        {
+          "label": "SOLITARIOS",
+          "value": 20,
+          "color": "green"
+        },
+        {
+          "label": "GRUPOS",
+          "value": 42.9,
+          "color": "paleMint"
+        },
+        {
+          "label": "SAQUEADORES",
+          "value": 12.9,
+          "color": "red"
+        },
+        {
+          "label": "PARAMILITARES",
+          "value": 17.1,
+          "color": "brown"
+        },
+        {
+          "label": "SECTARIOS/RELIGIOSOS",
+          "value": 7.1,
+          "color": "amber"
+        }
+      ]
+    },
+    "paragraphs": []
+  },
+  {
+    "id": "F009",
+    "filename": "CAUSAS_MORTALIDAD.RPT",
+    "size": 13312,
+    "date": "11-12-96",
+    "classification": "SECRET",
+    "requiresFloppy": true,
+    "chart": {
+      "kind": "pie",
+      "title": "CAUSA DE MUERTE MAS COMUN ENTRE SUPERVIVIENTES",
+      "subtitle": "Registro consolidado del equipo de campo / última actualización antes del corte total de comunicaciones",
+      "slices": [
+        {
+          "label": "INFECCION / MORDEDURAS",
+          "value": 38.7,
+          "color": "#6e1423"
+        },
+        {
+          "label": "ATAQUES DE INFECTADOS",
+          "value": 21.5,
+          "color": "red"
+        },
+        {
+          "label": "ENFRENTAMIENTO VS. HUMANOS",
+          "value": 12.9,
+          "color": "amber"
+        },
+        {
+          "label": "ENFERMEDADES",
+          "value": 10.8,
+          "color": "paleMint"
+        },
+        {
+          "label": "HAMBRE / DESNUTRICION",
+          "value": 7.7,
+          "color": "brown"
+        },
+        {
+          "label": "ACCIDENTES",
+          "value": 3.9,
+          "color": "greenDim"
+        },
+        {
+          "label": "OTRO",
+          "value": 2.3,
+          "color": "#4a4a46"
+        },
+        {
+          "label": "SUICIDIOS",
+          "value": 2.2,
+          "color": "green"
+        }
+      ]
+    },
+    "paragraphs": []
+  },
+  {
+    "id": "F010",
+    "filename": "SUPERVIVIENTES_UNIV.RPT",
+    "size": 6144,
+    "date": "11-12-96",
+    "classification": "CONFIDENTIAL",
+    "requiresFloppy": false,
+    "chart": {
+      "kind": "line",
+      "title": "CANTIDAD DE SUPERVIVIENTES EN LA UNIVERSIDAD",
+      "subtitle": "Grupo principal — Facultad de Arte y Diseño, Universidad Takayama",
+      "labels": [
+        "MES 0",
+        "MES 2",
+        "MES 4",
+        "MES 6",
+        "MES 8",
+        "MES 9"
+      ],
+      "yMax": 16,
+      "yStep": 4,
+      "series": [
+        {
+          "name": "SUPERVIVIENTES (GRUPO PRINCIPAL)",
+          "color": "green",
+          "values": [
+            15,
+            12,
+            10,
+            9,
+            8,
+            7
+          ]
+        }
+      ]
+    },
+    "paragraphs": []
+  },
+  {
+    "id": "F011",
+    "filename": "INDICE_SEGURIDAD_REGIONAL.RPT",
+    "size": 11776,
+    "date": "11-14-96",
+    "classification": "SECRET",
+    "requiresFloppy": false,
+    "chart": {
+      "kind": "map",
+      "title": "INDICE DE SEGURIDAD POR REGION",
+      "subtitle": "Escala 0 (critico) - 100 (seguro) / Estimacion sobre relevamiento de campo",
+      "labels": [
+        "HOKKAIDO",
+        "TOHOKU (SENDAI)",
+        "KANTO (TOKIO)",
+        "CHUBU (AICHI)",
+        "KANSAI",
+        "KYUSHU (FUKUOKA)",
+        "OKINAWA"
+      ],
+      "yMax": 100,
+      "yStep": 20,
+      "series": [
+        {
+          "name": "INDICE DE SEGURIDAD",
+          "color": "green",
+          "values": [
+            100,
+            79,
+            0,
+            13,
+            38,
+            4,
+            92
+          ]
+        }
+      ]
+    },
+    "paragraphs": []
+  },
+  {
+    "id": "F012",
+    "filename": "ZONAS_DE_CAMPO.TXT",
+    "size": 8960,
+    "date": "10-20-96",
+    "classification": "CONFIDENTIAL",
+    "requiresFloppy": true,
+    "chart": null,
+    "paragraphs": [
+      "Clasificación de zonas según nuestros propios relevamientos y los últimos boletines oficiales recibidos antes del corte de comunicaciones. Tres categorías: brote confirmado, refugio activo, y zonas seguras o aptas para investigación.",
+      "BROTE CONFIRMADO: entorno de Tokio/Yokohama, prefectura de Aichi y prefectura de Fukuoka. Actividad hostil constante; desplazamiento no recomendado bajo ninguna circunstancia.",
+      "REFUGIO ACTIVO: Sendai, campus de la Universidad Takayama — ubicación de este archivo, y no por casualidad: aquí funcionaba el laboratorio original de Prometeo, con equipo de bioseguridad que ninguna otra facultad de la región llegó a tener.",
+      "ZONAS SEGURAS / POTENCIAL DE INVESTIGACION: prefectura de Hokkaido y prefectura de Okinawa, ambas con actividad mínima reportada hasta la fecha de este registro. Anoto, sin poder confirmarlo del todo, que ambas regiones coinciden con los puntos más alejados de nuestra red original de muestreo, lo cual podría no ser casualidad."
+    ]
+  },
+  {
+    "id": "F013",
+    "filename": "REGISTRO_SUPERVIVIENTES_TAKAYAMA.DAT",
+    "size": 10240,
+    "date": "11-02-96",
+    "classification": "TOP SECRET",
+    "requiresFloppy": true,
+    "chart": null,
+    "paragraphs": [
+      "Registro de los siete ocupantes que adoptaron la Facultad de Arte y Diseño de la Universidad Takayama como refugio permanente, nueve meses después del brote inicial. Se eligió ese edificio por su diseño irregular y su difícil acceso, cualidades que en cualquier otro contexto habrían sido defectos de planeamiento. Ninguno de ellos sabe todavía que el laboratorio donde empezó todo esto queda a menos de cuatrocientos metros de donde duermen.",
+      "MEI — estudiante de intercambio proveniente de China, formación en Arquitectura. YUE — Antropología. KAZUTO — Derecho. ARISU — Ingeniería Mecánica. KAEDE — Medicina. SHIN — perfil deportivo, sin formación académica declarada. TAKUMI — Ingeniería de Sistemas, responsable de mantener operativos los generadores y el resto de la infraestructura del campus.",
+      "Nota de seguimiento: ARISU presenta resultado positivo al virus PROMETEO, pero exhibe rasgos de inmunidad parcial no documentados previamente en ningún otro caso registrado por este equipo. Es, hasta donde yo sé, la primera evidencia real de que el cuerpo humano puede convivir con esta cepa sin sucumbir del todo a ella. No he encontrado la forma de replicar esa inmunidad en ningún otro sujeto, y no es por falta de intentos. Su condición exige monitoreo continuo y discreción absoluta frente al resto del grupo."
+    ]
+  },
+  {
+    "id": "F014",
+    "filename": "EXPEDIENTE_PROMETEO.DOC",
+    "size": 21504,
+    "date": "11-10-96",
+    "classification": "TOP SECRET",
+    "requiresFloppy": true,
+    "chart": null,
+    "paragraphs": [
+      "El virus catalogado internamente como PROMETEO —el mismo nombre del proyecto que lo vio nacer, porque nadie se molestó nunca en buscarle uno propio— no se comporta como ningún patógeno descrito en la literatura previa a 1996, y tengo motivos para creer que eso no es casualidad: la cepa original que se filtró de nuestras instalaciones no era un patógeno natural, sino una de las variantes experimentales que este mismo equipo llevaba más de dos años intentando estabilizar con fines que, en su momento, me parecieron justificables. Nueve meses después, ya no estoy seguro de nada.",
+      "Además de la transformación física y conductual ya conocida, hemos confirmado casos de mutación secundaria: infectados que desarrollan capacidades o rasgos completamente ajenos a la infección original. El virus parece reescribirse a sí mismo con cada huésped, lo que explicaría por qué ningún tratamiento sintomático ha funcionado dos veces seguidas. Hemos probado antivirales, terapias de choque, incluso variantes de nuestro propio compuesto original invertido: nada revierte el proceso una vez avanzado, y nada impide que vuelva a mutar apenas creemos haber encontrado un patrón.",
+      "No existe cura. Lo escribo así, sin matices, porque cualquier ambigüedad en este punto solo alimenta falsas esperanzas entre quienes todavía las tienen. PROMETEO no se agota, no pierde virulencia con el tiempo y sobrevive fuera de un huésped mucho más de lo que jamás documentamos en laboratorio. Nueve meses después del brote, sigue tan activo como el primer día, y todo indica que seguirá estándolo mucho después de que quienes lo liberamos hayamos desaparecido.",
+      "El hallazgo más difícil de documentar, y el que menos comprendo, es la aparente capacidad del virus para 'personificarse'. Existen testimonios consistentes de una entidad que adopta la apariencia de personas desaparecidas frente a los sobrevivientes que las conocieron. Un miembro de nuestro grupo la identifica con un nombre propio, Iru, que según su propio testimonio corresponde a su pareja desaparecida durante los primeros días del brote. No tengo una explicación científica satisfactoria para este fenómeno, y ya no estoy seguro de que exista una dentro de los límites de lo que alguna vez llamamos ciencia.",
+      "Lo registro aquí únicamente porque negarlo no lo hace menos real, y porque si algo le ocurre a este archivo, alguien debería saber que no estamos enfrentando solamente un virus, ni un accidente. Estamos enfrentando algo que ayudamos a crear y que nunca terminamos de entender."
+    ]
+  },
+  {
+    "id": "F015",
+    "filename": "BITACORA_FINAL_PROFESOR.TXT",
+    "size": 5632,
+    "date": "11-30-96",
+    "classification": "TOP SECRET",
+    "requiresFloppy": false,
+    "chart": null,
+    "paragraphs": [
+      "Esta es, probablemente, mi última entrada antes de sellar el acceso a este archivo. Configuré esta terminal con el usuario PROFESOR sin contraseña a propósito: si alguien más llega hasta aquí después de mí, quiero que pueda leer todo sin obstáculos, incluida la parte que más me cuesta escribir.",
+      "PROYECTO PROMETEO nació como un esfuerzo de investigación universitaria legítimo. Con el tiempo, y con financiamiento que jamás debí aceptar sin hacer más preguntas, se convirtió en algo distinto: un programa que manipulaba cepas virales con la promesa de curar enfermedades degenerativas incurables. Terminamos bautizando a la cepa con el mismo nombre del proyecto, PROMETEO, sin detenernos a pensar en lo literal que resultaría la referencia: el fuego que le robamos a los dioses, devuelto sobre nosotros mismos. Salió de nuestras manos, no de la naturaleza, y ninguna disculpa que yo pueda escribir aquí cambia lo que eso significa para los millones de personas que ya no están.",
+      "Hoy, PROYECTO PROMETEO es, más que nada, la memoria de siete personas que decidieron seguir con vida en un edificio que ya no debería sostener a nadie, construido a metros del lugar donde todo empezó. No he encontrado una cura en nueve meses, y cada mes que pasa estoy más convencido de que no la voy a encontrar. Dejo estos archivos no como una solución, sino como una advertencia: lo que liberamos no tiene fecha de vencimiento.",
+      "Si esto sigue existiendo cuando alguien lo lea, significa que al menos una parte de lo que documentamos sobrevivió. Eso, en este punto, ya es más de lo que esperaba. Lo siento. No alcanza, pero es lo único que me queda para dar."
+    ]
+  },
+  {
+    "id": "F016",
+    "filename": "CORREOS_LABORATORIO.EML",
+    "size": 9216,
+    "date": "01-31-96",
+    "classification": "TOP SECRET",
+    "requiresFloppy": true,
+    "chart": null,
+    "paragraphs": [
+      "Recuperé este hilo de correos internos del servidor del departamento antes de perder el acceso a la red del campus. Lo dejo tal como lo encontré, sin editar, porque documenta mejor que cualquier informe posterior el momento exacto en que empezamos a ignorar las señales.",
+      "De: t.owada@bio.takayama-u.ac.jp\nPara: laboratorio-prometeo@takayama-u.ac.jp\nFecha: 01/19/96\nAsunto: Sujeto 4 — comportamiento fuera de protocolo\n\nEl sujeto 4 rompió la sedación programada por tercera vez esta semana. No es solo resistencia a la dosis, es como si el compuesto acelerara el metabolismo en lugar de frenarlo. ¿Alguien más está viendo esto o solo yo estoy perdiendo la cabeza?",
+      "De: profesor@bio.takayama-u.ac.jp\nPara: t.owada@bio.takayama-u.ac.jp\nFecha: 01/19/96\nAsunto: RE: Sujeto 4 — comportamiento fuera de protocolo\n\nLo estoy viendo. Subí la dosis un veinte por ciento y documentalo todo, pero no lo reportes todavía al comité. Si esto sale del laboratorio antes de que entendamos qué está pasando, nos cierran el proyecto entero.",
+      "De: r.mizuno@bio.takayama-u.ac.jp\nPara: laboratorio-prometeo@takayama-u.ac.jp\nFecha: 01/27/96\nAsunto: Fuga menor — contenida\n\nConfirmo que el sujeto 4 forzó el cierre de la jaula B esta madrugada. Lo recuperamos en menos de una hora, sin incidentes, pero dejo constancia formal de mi objeción: no deberíamos seguir escalando la dosis experimental sin informar a bioseguridad. Esto ya no es un problema de comportamiento animal.",
+      "De: profesor@bio.takayama-u.ac.jp\nPara: r.mizuno@bio.takayama-u.ac.jp\nFecha: 01/31/96\nAsunto: RE: Fuga menor — contenida\n\nTu objeción queda registrada. Lo hablamos el lunes en persona, no por correo. Necesito que esto quede fuera del sistema hasta entonces.\n\n(Nota posterior: el lunes al que se refiere este correo era el 2 de febrero. Nunca llegamos a tener esa conversación.)"
+    ]
+  },
+  {
+    "id": "F017",
+    "filename": "SINTOMAS_MUTACIONES.RPT",
+    "size": 14080,
+    "date": "09-05-96",
+    "classification": "SECRET",
+    "requiresFloppy": false,
+    "chart": null,
+    "paragraphs": [
+      "Consolido en este documento la progresión clínica que hemos podido observar hasta la fecha, dividida en tres etapas orientativas. Etapa uno, incubación: entre seis y cuarenta y ocho horas sin síntomas visibles, variable según la vía de exposición. Etapa dos, fase aguda: fiebre alta, desorientación, cambios violentos de humor; coincide con los primeros reportes hospitalarios de febrero. Etapa tres, fase crónica: pérdida progresiva del habla articulada, desconocimiento de vínculos afectivos previos, agresividad sostenida y un apetito que no responde a ninguna lógica metabólica conocida.",
+      "Dentro de la etapa tres no todos los casos son iguales. La mayoría se estabiliza en lo que ya llamamos coloquialmente 'infectado estándar'. Un subgrupo mucho más reducido desarrolla lo que catalogamos como mutación secundaria: alteraciones físicas o conductuales que no encajan en ningún patrón previsible, incluyendo el fenómeno de 'personificación' ya registrado por separado en este archivo. Y existe un tercer subgrupo, todavía más pequeño, que simplemente no completa la progresión esperada.",
+      "No tenemos manera de predecir, antes de la exposición, a qué subgrupo va a pertenecer un individuo. Barajamos una hipótesis genética, pero la pérdida de comunicaciones nos impidió acceder a cualquier base de datos poblacional que la sostuviera. Dejo esto registrado sabiendo que es incompleto. Sospecho que la respuesta real, si existe, está fuera de nuestro alcance."
+    ]
+  },
+  {
+    "id": "F018",
+    "filename": "NOTA_A_LOS_QUINCE.TXT",
+    "size": 6656,
+    "date": "05-14-96",
+    "classification": "TOP SECRET",
+    "requiresFloppy": false,
+    "chart": null,
+    "paragraphs": [
+      "Si están leyendo esto, significa que llegaron a la facultad de arte y diseño y encontraron el generador funcionando. Bien. Eso significa que van a tener, al menos, luz y agua limpia durante un tiempo. Fui uno de los responsables del proyecto que se desarrollaba en este campus antes de todo esto. En otro momento me habría tomado la molestia de explicarles quién soy con más calma. No tengo ese lujo ahora.",
+      "Estoy en el edificio principal de investigación, a poco menos de un kilómetro de donde están ustedes. No puedo cruzar. La zona entre ambos edificios lleva semanas con actividad constante y no tengo forma segura de llegar hasta allá, ni ustedes deberían intentarlo bajo ninguna circunstancia. Configuré el acceso a los archivos de nuestro equipo en la terminal principal de la facultad antes de que se cortara por completo el paso entre ambos edificios; ahí van a encontrar, más adelante, el resto de lo que sé. Les dejo también las llaves del depósito de suministros, el mapa del campus y las indicaciones básicas de los generadores, que alguno de ustedes con formación en sistemas debería poder operar sin demasiado problema.",
+      "Me quedan pocas provisiones y ya no tengo forma de reabastecerme. No voy a fingir que esto tiene un final distinto al que ya imaginan. Solo les pido una cosa: si en algún momento encuentran el resto de mis archivos, léanlos con la mente abierta antes de odiarme. No los va a hacer sentir mejor, pero al menos van a entender por qué terminaron aquí, y por qué este lugar, de todos los lugares posibles, terminó siendo el único que quedaba en pie."
+    ]
+  },
+  {
+    "id": "F019",
+    "filename": "ZONAS_DE_PRUEBA.RPT",
+    "size": 10496,
+    "date": "06-30-96",
+    "classification": "SECRET",
+    "requiresFloppy": true,
+    "chart": null,
+    "paragraphs": [
+      "Registro parcial de comunicaciones de campo entre los equipos que administrábamos las llamadas 'zonas de prueba': sectores acordonados donde intentamos, sin autorización oficial más allá de este mismo equipo, observar el comportamiento del virus en condiciones controladas y probar variantes de nuestro compuesto original. Lo que sigue son fragmentos de radio, no una transcripción completa.",
+      "[TRANSMISIÓN — ZONA C, DISTRITO INDUSTRIAL, 14:20] 'Aquí equipo dos. Liberamos el compuesto ARC-3 en el sector marcado. Sujetos expuestos no muestran cambio de comportamiento en los primeros veinte minutos. Vamos a esperar el ciclo completo antes de confirmar.'",
+      "[TRANSMISIÓN — ZONA C, 15:47] 'Tenemos un problema. El compuesto no calmó a los sujetos expuestos, los aceleró. Dos de los tres rompieron el perímetro. Equipo dos solicita extracción inmediata, repito, extracción inmediata.' No hubo respuesta registrada después de ese mensaje. El equipo dos nunca regresó a la base.",
+      "Cerramos oficialmente el programa de zonas de prueba después de este incidente, aunque 'oficialmente' ya no significaba mucho para entonces. Sigo sin saber qué pasó con los tres integrantes del equipo dos. No los busqué. No tuve el valor, y tampoco los recursos."
+    ]
+  },
+  {
+    "id": "F020",
+    "filename": "MENSAJES_POSIBLE_CURA.TXT",
+    "size": 8704,
+    "date": "11-20-96",
+    "classification": "TOP SECRET",
+    "requiresFloppy": true,
+    "chart": null,
+    "paragraphs": [
+      "Recopilo aquí los últimos mensajes que logramos intercambiar con otros grupos de supervivientes antes de perder por completo la señal de radio de corto alcance. Todos coinciden, de manera independiente, en un mismo punto: existen casos aislados de personas expuestas que no completan la transformación esperada.",
+      "'Aquí tenemos un caso, mujer, cuarenta y pico, mordida hace once semanas. Debería estar muerta o convertida hace mucho. Sigue teniendo fiebre alta cada tanto, nada más. No sabemos por qué. No sabemos qué la hace distinta.' — mensaje recibido de un grupo no identificado en la zona de Kansai, sin respuesta posterior.",
+      "Nuestro propio caso documentado, ya registrado por separado en este archivo, presenta el mismo patrón: exposición confirmada, progresión detenida en algún punto intermedio, sin explicación clara. Intentamos extraer y analizar muestras de sangre para aislar lo que sea que esté interrumpiendo el proceso, pero cada intento de replicarlo en otro sujeto fracasó sin excepción.",
+      "No sé si esto es una cura, una inmunidad parcial, una mutación distinta disfrazada de suerte, o simplemente el virus tomándose su tiempo con algunas personas antes de terminar el trabajo. Lo dejo registrado porque es lo más parecido a una esperanza que tengo para ofrecer, y porque prefiero que quede escrito el desconocimiento real, en lugar de una promesa que no puedo cumplir."
+    ]
+  },
+  {
+    "id": "F021",
+    "filename": "SUPERVIVIENTES_INFECTADOS.RPT",
+    "size": 9984,
+    "date": "11-15-96",
+    "classification": "TOP SECRET",
+    "requiresFloppy": false,
+    "chart": {
+      "kind": "line",
+      "unit": "M",
+      "title": "SUPERVIVIENTES Y INFECTADOS",
+      "subtitle": "Millones de habitantes / Comparativa directa desde el brote inicial",
+      "labels": [
+        "DIA 0",
+        "MES 1",
+        "MES 3",
+        "MES 5",
+        "MES 7",
+        "MES 9"
+      ],
+      "series": [
+        {
+          "name": "SUPERVIVIENTES",
+          "color": "green",
+          "values": [
+            121.7,
+            72,
+            32,
+            13,
+            6.5,
+            3.5
+          ]
+        },
+        {
+          "name": "INFECTADOS",
+          "color": "red",
+          "values": [
+            0,
+            20,
+            45,
+            65,
+            77,
+            82
+          ]
+        }
+      ]
+    },
+    "paragraphs": []
+  }
+]

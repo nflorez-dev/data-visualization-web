@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="./favicon.svg">
+    <title>PROYECTO PROMETEO</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- BOOT -->
+<section id="view-boot" class="view view-active">
+    <pre id="boot-log" class="boot-log"></pre>
+</section>
+
+<!-- LOGIN -->
+<section id="view-login" class="view">
+    <div class="login-box">
+        <p class="login-title">PROMETEUS</p>
+        <p class="login-sub">AUTENTICACIÓN REQUERIDA</p>
+        <form id="login-form" autocomplete="off">
+            <div class="field-row">
+                <label for="user-input">&lt;USER&gt;</label>
+                <input id="user-input" type="text" spellcheck="false" autocomplete="off" />
+            </div>
+            <div class="field-row">
+                <label for="pass-input">&lt;PASS&gt;</label>
+                <input id="pass-input" type="password" spellcheck="false" autocomplete="off" />
+            </div>
+            <p class="field-hint">USUARIO "PROFESOR" — SIN CONTRASEÑA</p>
+            <button type="submit" class="term-btn"></button>
+            <p id="login-error" class="login-error" aria-live="polite"></p>
+        </form>
+    </div>
+</section>
+
+<!-- INDEX (tabla de archivos) -->
+<section id="view-index" class="view">
+    <header class="bar-header">
+        <span class="bar-title">SECURE VAULT — CLASSIFIED FILE INDEX</span>
+        <span id="clock" class="bar-time"></span>
+    </header>
+    <p class="bar-sub">USER: <span id="session-user"></span> | CLEARANCE: TOP SECRET | SESSION: <span id="session-timer">00:00:00</span></p>
+    <hr class="divider" />
+
+    <!-- FILTROS -->
+    <div class="filter-bar" id="filter-bar">
+        <div class="filter-row">
+            <label class="filter-label" for="index-search">BUSCAR</label>
+            <input id="index-search" class="filter-input" type="text" spellcheck="false" autocomplete="off"
+                   placeholder="archivo, gráfico, serie, categoría…  ( / )" />
+            <span id="filter-count" class="filter-count"></span>
+        </div>
+        <div class="filter-row">
+            <span class="filter-label">TIPO</span>
+            <div class="chip-group" id="type-chips">
+                <button type="button" class="chip" data-type="all">TODOS</button>
+                <button type="button" class="chip" data-type="chart">GRÁFICOS</button>
+                <button type="button" class="chip" data-type="bar">BAR</button>
+                <button type="button" class="chip" data-type="line">LINE</button>
+                <button type="button" class="chip" data-type="pie">PIE</button>
+                <button type="button" class="chip" data-type="text">TEXTO</button>
+            </div>
+            <span class="filter-label">CLASIF.</span>
+            <div class="chip-group" id="class-chips">
+                <button type="button" class="chip" data-class="all">TODAS</button>
+                <button type="button" class="chip chip-top" data-class="TOP SECRET">TOP SECRET</button>
+                <button type="button" class="chip chip-secret" data-class="SECRET">SECRET</button>
+                <button type="button" class="chip chip-conf" data-class="CONFIDENTIAL">CONFIDENTIAL</button>
+            </div>
+            <button type="button" class="chip chip-reset" id="filter-reset" hidden>LIMPIAR [X]</button>
+        </div>
+    </div>
+
+    <table class="file-table">
+        <thead>
+        <tr>
+            <th class="col-id">ID</th>
+            <th class="col-name">FILENAME</th>
+            <th class="col-size">SIZE</th>
+            <th class="col-date">FECHA</th>
+            <th class="col-class">CLASIFICACIÓN</th>
+        </tr>
+        </thead>
+        <tbody id="file-table-body">
+        <!-- filas generadas por script.js -->
+        </tbody>
+    </table>
+
+    <footer class="bar-footer">
+        <span>↑↓ NAVEGAR &nbsp; [ENTER] ABRIR &nbsp; [/] BUSCAR &nbsp; [T] TIPO &nbsp; [C] CLASIF. &nbsp; [X] LIMPIAR &nbsp; ⊞=FLOPPY</span>
+        <span class="footer-right">
+            <button type="button" class="footer-btn" data-tutorial>[F1] TUTORIAL</button>
+            <span>[F10] CERRAR SESIÓN</span>
+        </span>
+    </footer>
+</section>
+
+<!-- DOCUMENTO / GRAFICO a pantalla completa -->
+<section id="view-doc" class="view">
+    <header class="doc-header">
+        <span id="doc-title" class="doc-title"></span>
+        <span id="doc-badge" class="doc-badge"></span>
+    </header>
+    <p id="doc-sub" class="bar-sub"></p>
+    <hr class="divider" />
+
+    <div id="doc-content" class="doc-content">
+        <!-- texto, prompt de disquete o canvas generado por script.js -->
+    </div>
+
+    <footer class="bar-footer">
+        <span>[ESC] VOLVER AL ÍNDICE DE ARCHIVOS</span>
+        <span class="footer-right">
+            <span id="doc-hint"></span>
+            <button type="button" class="footer-btn" data-tutorial>[F1] TUTORIAL</button>
+        </span>
+    </footer>
+</section>
+
+<script src="script.js"></script>
+<script src="tutorial.js"></script>
+</body>
+</html>
